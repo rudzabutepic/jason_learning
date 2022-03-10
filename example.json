@@ -1,0 +1,44 @@
+//Uzdevums
+//Izveido json datus kur ir divas organizāciajs
+//1. "Super University"
+//2. "Rocket Startup"
+//Izveido 2 klientus katram uzņēmumam, lai:
+//1)Klientam būtu vārds un uzvārds
+//2)Katram klientam ir kontakt info: Phone/Email
+
+
+
+
+
+[
+    {
+        "Name": "Super University",
+        "Employees": [
+            {
+                "FirstName": "Anna",
+                "LastName": "Berziņa",
+                "Contacts": [
+                    {
+                        "Phone": "+371987654321",
+                        "Email": "anna.berzina@gmail.com"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "Name": "Rocket startup",
+        "Employees":[
+            {
+                "FirstName": "Miks",
+                "LastName": "Founder",
+                "Contacts": [
+                    {
+                        "Phone": "+371654987654",
+                        "Email": "miks.founder@gmail.com"
+                    }
+                ]
+            }
+        ]
+    }
+]
